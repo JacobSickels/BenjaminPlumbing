@@ -1,7 +1,11 @@
 .footer {
-    
+        
+    &-link {
+        color: lighten($red, 20%);       
+    }
+
     .page-footer {
-        background-color: $dark-bluegrey !important;
+        background-color: $black !important;
 
     }
     &-link {

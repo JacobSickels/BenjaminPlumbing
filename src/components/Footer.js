@@ -7,24 +7,27 @@ export const Footer = () => (
             <div className="container">
                 <div className="row">
                     <div className="col l6 s12">
-                        <h5 className="white-text">Footer Content</h5>
-                        <p className="grey-text text-lighten-4">This site was created by hand, by me, using React/ Redux/ and Firebase.</p>
+                        <h5 className="white-text">Benjamin Plumbing</h5>
+                        <p className="grey-text text-lighten-4">
+                            Benjamin Plumbing, Inc.<br />
+                            2870 Commerce Park Drive<br />
+                            Fitchburg, WI 53719
+                        </p>
                     </div>
                     <div className="col l4 offset-l2 s12">
                         <h5 className="white-text">Links</h5>
                         <ul>
-                            <li className="footer-link"><a className="amber-text text-lighten-2" href="#!">Resume</a></li>
-                            <li className="footer-link"><a className="amber-text text-lighten-2" href="#!">Github</a></li>
-                            <li className="footer-link"><a className="amber-text text-lighten-2" href="#!">LinkedIn</a></li>
-                            <li className="footer-link"><a className="amber-text text-lighten-2" href="#!">Projects</a></li>
-                            <li className="footer-link"><a className="amber-text text-lighten-2" href="#!">Contact</a></li>
+                            <li className="footer-link"><a className="footer-link" href="#!">Home</a></li>
+                            <li className="footer-link"><a className="footer-link" href="#!">About</a></li>
+                            <li className="footer-link"><a className="footer-link" href="#!">Services</a></li>
+                            <li className="footer-link"><a className="footer-link" href="#!">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="footer-copyright">
                 <div className="container">
-                © 2018 Jacob Sickels
+                    © 2018 Benjamin Plumbing
                 </div>
             </div>
         </footer>

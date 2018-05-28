@@ -1,14 +1,13 @@
 import React from 'react';
 import Welcome from './Welcome';
 import ProjectsSlice from './ProjectsSlice';
-import Social from './Social';
+import About from './About';
 import Education from './Education';
 
 const HomePage = () => (
     <div>
         <Welcome />
-        <Education />
-        <ProjectsSlice />
+        <About />
     </div>
 );
 
