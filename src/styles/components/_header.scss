@@ -19,10 +19,6 @@
     }
 }
 
-.nav-translate {
-    transform: translateX(100%);
-}
-
 .call-btn {
     height: 100%;
     line-height: 64px;
@@ -37,5 +33,14 @@ nav .button-collapse {
     height: 64px !important;
     i {
         margin: auto 0;
+        height: 64px;
     }
+}
+
+.side-nav {
+    background-color: $green !important;
+}
+
+.sub-item {
+    background-color: darken($green, 10%) !important;
 }

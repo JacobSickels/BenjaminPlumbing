@@ -1,7 +1,9 @@
 //Colors
 $grey: #58585a;
+$light-grey: lighten($grey, 40%);
 $light-green: #8bc7b8;
 $green: #009978;
+$dark-green: darken($green, 10%);
 $black: #231f20;
 $white: #dce3e1;
 $red: #c42033;

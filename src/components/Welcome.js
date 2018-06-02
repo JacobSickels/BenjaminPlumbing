@@ -10,6 +10,11 @@ const Welcome = () => (
                     </div>
                 </div>
             </div>
+            <div className="row">
+                <div className="col s12 m10 l10 offset-m1 offset-l1">
+                    <h1 className="main-welcome--text flow-text">Serving <span className="bold">residential plumbing repair</span> and <span className="bold">large commercial plumbing installations</span> in the greater Madison, Wisconsin Area</h1>
+                </div>
+            </div>
         </div>
     </div>
 );

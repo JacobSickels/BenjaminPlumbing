@@ -15,14 +15,38 @@
             border: none;
             background-color: rgba(0,0,0,0);
         }
+
+        
+    }
+    
+    &-more {
+        text-align: center;
+        width: 150px;
+        margin: 3em auto;
+        
+        &__btn {
+            width: 100%;
+            height: 100%;
+            background-color: $green;
+            border: none;
+            color: $white;
+            padding: 1em;
+        }
+        
+        span {
+            line-height: 24px;
+        }
     }
 
     &:hover {
         background-color: rgba(0,0,0,0.5) !important;
     }
 }
-button:focus {
+.button:focus {
     background-color: rgba(0,0,0,0) !important;
+}
+button:focus {
+    background-color: $green;
 }
 
 .active {
