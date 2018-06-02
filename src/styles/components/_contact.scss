@@ -1,0 +1,115 @@
+.contact {
+    background-color: $dark-green;
+    color: $white;
+    padding-bottom: 4em;
+
+    &-form {
+        margin: 0;
+        background-color: $black;
+        border-radius: 5px;
+    }
+
+    .container {
+
+        .row {
+            &:first-of-type{
+                padding-top: 4em;
+            }
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            form {
+                padding: 2em;
+                .row {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            .section-title, .section-subhead {
+                color: $white;
+            }
+        }
+    }
+}
+
+
+
+/* Contact Form Styles */
+
+.input-field .active {
+    color: $white;
+}
+  /* label color */
+  .input-field label {
+    color: $white ;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: $white;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  
+
+/* label focus color */
+.input-field input[type=email]:focus + label {
+    color: $white;
+  }
+  /* label underline focus color */
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  /* valid color */
+  .input-field input[type=email].valid {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  /* invalid color */
+  .input-field input[type=email].invalid {
+    border-bottom: 1px solid $red;
+    box-shadow: 0 1px 0 0 $red;
+  }
+
+  
+
+  /* label focus color */
+  #textarea1:focus + label {
+    color: $white;
+  }
+  /* label underline focus color */
+  #textarea1:focus {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 1px 0 0 $white;
+  }
+  /* valid color */
+  // #textarea1:valid {
+  //   border-bottom: 1px solid $white;
+  //   box-shadow: 0 1px 0 0 $white;
+  // }
+  /* invalid color */
+  #textarea1:invalid {
+    border-bottom: 1px solid $red;
+    box-shadow: 0 1px 0 0 $red;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: $white;
+  }
+       

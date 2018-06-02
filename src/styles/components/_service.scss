@@ -1,0 +1,64 @@
+.service {
+
+    &-slice {
+
+    
+        background-color: $white;
+        color: $black;
+
+        &--intro {
+            border-bottom: 2px $light-grey solid;
+            padding-bottom: 3em;
+        }
+        
+        .text-pull {
+            text-align: center;
+            margin: 1em 0;
+            font-style: italic;
+            color: $green;
+        }
+
+        .container {
+            background-color: $white;
+    
+            .row {
+                &:first-of-type{
+                    padding-top: 4em;
+                }
+                &:last-of-type {
+                    padding-bottom: 4em;
+                    margin-bottom: 0;
+                }
+    
+                p {
+                    padding-top: 0.5em;
+                    margin-top: 0.5em;
+                }
+                
+                .contact {
+                    padding-top: 1em;
+                    color: $dark-green;
+
+                    i {
+                        float: left;
+                        margin-right: 0.5em;
+                    }
+                }
+            }
+        }
+
+        .services {
+            margin: 2em 0;
+
+            &-title {
+                text-align: center;
+                i {
+                    padding-top: 0.5em;
+                }
+                p {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
